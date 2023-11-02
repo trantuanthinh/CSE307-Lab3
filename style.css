@@ -1,0 +1,55 @@
+.headerContainer {
+    display: flex;
+    flex: 1
+}
+
+a:hover {
+    color: #900;
+}
+
+#leftHeader {
+    flex: 1;
+}
+
+#rightHeader {
+    color: blue;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navContainer {
+    border: 1px solid black;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#leftNav {
+    flex-direction: row;
+}
+
+#rightNav {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.horizontal-list li {
+    border-left: 1px solid black;
+    border-spacing: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:hover {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
