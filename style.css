@@ -3,7 +3,7 @@
     flex: 1
 }
 
-a:hover {
+.headerContainer a:hover {
     color: #900;
 }
 
@@ -47,7 +47,9 @@ a:hover {
     padding-right: 10px;
 }
 
-li:hover {}
+li:hover {
+    text-decoration: underline;
+}
 
 * {
     margin: 0;
