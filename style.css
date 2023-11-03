@@ -47,7 +47,7 @@
     padding-right: 10px;
 }
 
-li:hover {
+.horizontal-list li:hover {
     text-decoration: underline;
 }
 
